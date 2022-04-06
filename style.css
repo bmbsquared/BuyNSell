@@ -3,6 +3,9 @@
    padding: 0;
    box-sizing: border-box;
 }
+body{
+   font-family: 'Roboto Condensed', sans-serif;
+}
 .navbar{
    display: flex;
    align-items: center;
@@ -23,10 +26,10 @@ nav ul li{
 }
 a{
  text-decoration:none;
-   color: #900;
+   color: #00006b;
 }
 p{
-   color: #900;
+   color: #00006b;
 }
 .container{
    max-width:1300px;
@@ -59,9 +62,13 @@ p{
 }
 .btn{
    display: inline-block;
-   background: #ff523b;
+   background: #00006b;
    color: #fff;
    padding: 8px 30px;
    margin: 30px 0;
    border-radius: 30px; 
+} 
+.header{
+   background: radial-gradient(#fff,#add8e6);
+    
 }
